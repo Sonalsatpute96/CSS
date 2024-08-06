@@ -1,0 +1,16 @@
+img{
+    height: "200";
+}
+
+.heading {
+    color: red;
+}
+
+#box {
+    background-color: blue;
+    color: white;
+}
+
+button{
+    background-color: green;
+}

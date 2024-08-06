@@ -1,0 +1,107 @@
+<!-- 
+
+/* Basic Selectors
+1.Universal Selector (*)
+Selects all elements.
+css
+Copy code
+* {
+    color: blue;
+}
+
+2.Type Selector (Element Selector)
+Selects elements by their tag name.
+css
+Copy code
+p {
+    font-size: 16px;
+}
+
+3.Class Selector
+Selects elements with a specific class attribute.
+css
+Copy code
+.classname {
+    border: 1px solid black;
+}
+
+4.ID Selector
+Selects a single element with a specific ID attribute.
+css
+Copy code
+#uniqueID {
+    background-color: yellow;
+}
+
+5.Attribute Selectors
+[attribute]
+a.Selects elements with a specific attribute.
+css
+Copy code
+[type] {
+    border: 1px solid red;
+}
+[attribute=value]
+
+b.Selects elements with a specific attribute value.
+css
+Copy code
+[type="text"] {
+    border: 1px solid green;
+}
+[attribute^=value]
+
+c.Selects elements with an attribute value that starts with a specified value.
+css
+Copy code
+[class^="btn"] {
+    padding: 10px;
+}
+[attribute$=value]
+
+d.Selects elements with an attribute value that ends with a specified value.
+css
+Copy code
+[class$="active"] {
+    color: red;
+}
+[attribute=value]*
+
+f.Selects elements with an attribute value that contains a specified value.
+css
+Copy code
+[class*="col"] {
+    width: 100%;
+} */
+ -->
+
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="2_selector_style.css">
+ </head>
+ <body>
+    <h1 id="Red_color">Heading 1</h1>
+    <br>
+    <h2>Heading 2</h2>
+    <br>
+    <p class="myClass">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Esse ullam minus eius asperiores sed quisquam,
+         ducimus porro! 
+        Est fuga, illum atque non nisi enim dolor ab aspernatur aliquam, alias nesciunt.</p>
+        <br>
+    <h5 class="myClass">Thank you</h5>
+    <button id="Button_id">Submit</button>
+    <br>
+    <label for="101">
+    <input type="radio" name="BE" class="Class A" id="101">BE
+    </label>
+    <br>
+    <label for="102">
+    <input type="radio" name="ME" class="Class A" id="102">ME
+
+    </label> 
+</body>
+ </html>

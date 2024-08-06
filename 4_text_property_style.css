@@ -1,0 +1,59 @@
+/* english language=start i.e left  && end i.e :right */
+/* urdu language=start i.e right  && end i.e left */
+/* units in css
+96px=1 inch
+font-size=2px  cannot use in heading tag*/
+
+/* line-height:2px; */
+/* line-height:normal====>height betn two lines */
+
+/* text-transform=uppercase/lowercase/capital/none */
+
+*{
+    color: blue;
+    font-family: 'Times New Roman', Times, serif;
+ 
+}
+
+h1{
+    text-align: center;/
+  
+}
+
+#p1{
+    text-align: left;
+    font-size: 25px;
+    line-height: 25px;
+    text-transform: capitalize;
+}
+
+#p2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    line-height: 50px;
+    text-transform: lowercase;
+}
+
+h1{
+    text-decoration: overline;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+h2{
+    text-decoration: underline;
+    font-weight: bolder;
+    text-transform: none;
+}
+
+h3{
+    text-decoration: line-through;
+    font-weight: lighter;
+}
+
+a{
+    text-decoration: None;
+}
+
+/* font weight=normal/bold/bolder/lighter */
+/* font weight=100 to 900 */

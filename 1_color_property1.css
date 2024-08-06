@@ -1,0 +1,27 @@
+h1 {
+    color:green;
+    background-color: aquamarine;
+}
+h2{
+    color:blue;
+}
+h3{
+    color: rgb(255, 0, 0);
+}
+h4{
+    color: #00ff00;
+}
+h6{
+    color: rgb(255, 255, 0);
+}
+p{
+    color:blue;
+    background-color: cadetblue;
+}
+button{
+    color:brown;
+    background-color: aquamarine;
+}
+body{
+    background-color: blanchedalmond;
+}

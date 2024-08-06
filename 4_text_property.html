@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="4_text_property_style.css">
+</head>
+<body>
+    <h1>Heading 1</h1>
+    <p id="p1">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nisi esse beatae officiis illo aperiam nobis voluptatum hic consequatur accusamus laboriosam doloribus aliquam eveniet magnam, sit eius tenetur, dolores mollitia repellat.
+    Dolorum, soluta porro laboriosam numquam doloribus earum quaerat dolores eveniet ducimus optio quod adipisci dicta facilis officiis laudantium, veritatis necessitatibus! Optio velit dolorem sequi non est perspiciatis aut perferendis autem!
+    Laboriosam voluptas aliquam sed officia molestias suscipit autem aut iste ipsa perspiciatis eaque ea laborum dolorum blanditiis commodi maiores sequi iure ex omnis, amet quasi ipsam ut! Dicta, dolorum animi.
+    Deleniti impedit eos dolore deuia nihil provident optio nemo! Fuga adipisci mollitia in nam quisquam id sunt, dignissimos consectetur quibusdam non voluptas vel hic maiores quos fugiat iste!</p>
+    <br>
+    <p id="p2">Lorem ipsum dolor sit Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis illum rem ratione, dolor facilis quas saepe nobis! Eveniet dicta repellat culpa, neque beatae repudiandae similique cumque reiciendis autem harum eligendi!
+    Libero reprehenderit minus recusandae? Inventore quam praesentium et ipsa consequatur laboriosam minus temporibus ut architecto at? Corrupti esse, accusantium inventore architecto magnam soluta eum! Ipsum natus quam nesciunt rerum a!
+    Ipsum, accusantium magni. Cumque quia quibusdam culpa accusamus nihil? Reprehenderit qui eaque animi iusto debitis possimus delectus mollitia assumenda sequi repellat, ullam dolor quod voluptatem dolorem incidunt! Tempora, voluptatibus odio.
+    Qui, cumque ipsam accusamus sunt, reprehenderit molestias esse libero magni quia dignissimos placeat quod perspiciatis ipsa quis. Mollitia placeat optio quam modi molestiae aliquam veritatis, ratione voluptatem, est, soluta tenetur.
+    Veniam blanditiis, aperiam vitae at sequi temporibus laborum quia repudiandae aspernatur enim ipsa voluptatibus similique magni provident, quam illo alias dolorum officia esse modi nesciunt cum corporis repellat. Repellat, officia?amet consectetur adipisicing elit. Aliquid suscipit deserunt facere, debitis, ipsam repellat dolor unde corporis, eos odio dolore? Impedit,
+         dolores repellat a porro repellendus repudiandae adipisci veritatis.</p>
+    <h1>heading1</h1>
+    <br>
+    <h2>Heading2</h2>
+    <br>
+    <h3>heading3</h3>
+    <a href="https://www.google.com/">Click me!</a>
+</body>
+</html>
+
+
+
+<!-- text properties in css
+Text properties in CSS allow you to control the appearance and formatting of text. Here are the key text properties:
+
+Basic Text Properties
+color
+
+Sets the color of the text.
+css
+Copy code
+p {
+    color: red;
+}
+font-family
+
+Specifies the font for an element.
+css
+Copy code
+body {
+    font-family: 'Arial', sans-serif;
+}
+font-size
+
+Sets the size of the font.
+css
+Copy code
+h1 {
+    font-size: 2em;
+}
+font-weight
+
+Specifies the weight (or boldness) of the font.
+css
+Copy code
+strong {
+    font-weight: bold;
+}
+font-style
+
+Specifies the style of the font (normal, italic, oblique).
+css
+Copy code
+em {
+    font-style: italic;
+}
+font-variant
+
+Specifies whether the text should be displayed in a small-caps font.
+css
+Copy code
+p {
+    font-variant: small-caps;
+}
+Advanced Text Properties
+line-height
+
+Sets the height of a line of text.
+css
+Copy code
+p {
+    line-height: 1.5;
+}
+text-align
+
+Specifies the horizontal alignment of text.
+css
+Copy code
+h1 {
+    text-align: center;
+}
+text-decoration
+
+Specifies the decoration added to text (underline, overline, line-through, none).
+css
+Copy code
+a {
+    text-decoration: none;
+}
+text-transform
+
+Controls the capitalization of text (uppercase, lowercase, capitalize).
+css
+Copy code
+h2 {
+    text-transform: uppercase;
+}
+letter-spacing
+
+Sets the space between characters in a text.
+css
+Copy code
+p {
+    letter-spacing: 2px;
+}
+word-spacing
+
+Sets the space between words in a text.
+css
+Copy code
+p {
+    word-spacing: 4px;
+}
+text-indent
+
+Indents the first line of text in a paragraph.
+css
+Copy code
+p {
+    text-indent: 50px;
+}
+text-shadow
+
+Adds shadow to text.
+css
+Copy code
+h1 {
+    text-shadow: 2px 2px 5px gray;
+}
+More Text Properties
+white-space
+
+Specifies how white space inside an element is handled.
+css
+Copy code
+p {
+    white-space: nowrap;
+}
+direction
+
+Sets the text direction (left-to-right or right-to-left).
+css
+Copy code
+p {
+    direction: rtl;
+}
+text-overflow
+
+Specifies how overflowed content that is not displayed should be signaled to the user.
+css
+Copy code
+.truncate {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+word-break
+
+Specifies how words should break when reaching the end of a line.
+css
+Copy code
+.break {
+    word-break: break-all;
+}
+line-clamp
+
+Limits the number of lines of text in a block and adds an ellipsis if the text exceeds the specified number of lines (usually used with display: -webkit-box; and -webkit-box-orient: vertical;).
+css
+Copy code
+.clamp {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    overflow: hidden;
+}
+Font Shorthand Property
+The font property is a shorthand for setting font-style, font-variant, font-weight, font-size, line-height, and font-family.
+css
+Copy code
+p {
+    font: italic small-caps bold 16px/1.5 'Arial', sans-serif;
+} -->

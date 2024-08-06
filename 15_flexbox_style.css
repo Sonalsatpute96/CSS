@@ -1,0 +1,72 @@
+body {
+    text-align: center;
+}
+
+
+#Container {
+    width: 700px;
+    height: 800px;
+    border: 2px solid black;
+    display: flex;
+    /* border: 2px solid black; */
+    /* display: inline-block; */
+    flex-direction: row;            
+    /* element main axis will be horizontal and row ...element placed from left to right */
+    /* flex-direction: row-reverse;      element will be placed from the right to left with horizontal axis */
+    /* flex-direction: column;                 element will be placed from top to bottom              */
+    /* flex-direction: column-reverse; */
+    /* In column reverse it from bottom to up  */
+    /* justify-content: end; */
+    justify-content: center; 
+    /* justify-content: start; */
+    /* justify-content: space-evenly; */
+    /* justify-content: space-between; */
+    /* justify-content: space-around; */
+    /* flex-wrap: wrap;  comment before using flex shrink and flex grow properties */ 
+    /* flex-wrap: nowrap; */
+    align-items:start ;
+    /* align-items: center;        Gap will be there i.e no wrapping */
+    align-content: center;          /* No Gap i.e wrapped together*/ 
+
+
+}
+
+#box1,#box2,#box3,#box4,#box5{
+    border: 2px solid black;
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    display: flex;
+
+}
+#box1 {
+    background-color: red;
+    flex-shrink: 2;         /*it shrink twice than others.....if 0 no shrink 
+    
+
+}
+
+
+#box2 {
+    background-color: green;
+    height: 50px;
+    align-self: flex-start;     
+    /* align self property is used for the perticular element to align and it is having most priority than others */
+}
+
+#box3 {
+    background-color: purple;
+    flex-grow: 3;
+    3 times bigger than others and it will be adjust inside according to the width of the container 
+
+}
+
+#box4 {
+    background-color: lightblue;
+    height: 30px;
+}
+
+#box5 {
+    background-color: blue;
+
+}

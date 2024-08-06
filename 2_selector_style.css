@@ -1,0 +1,27 @@
+/* Universal selector */
+*{
+    font-style: italic;
+    color: Blue;
+    background-color: aqua;
+}
+
+/* element selector */
+h1{
+   Color:red; 
+}
+
+/* id selector */
+#Red_color{
+color: brown;
+}
+
+/* id selector */
+#Button_id{
+    color: rgb(4, 70, 55);
+}
+
+/* class selector */
+.myClass
+{
+    color :black;
+}

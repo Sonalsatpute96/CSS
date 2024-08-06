@@ -1,0 +1,23 @@
+div{
+    height: 100px;
+    width: 100px;
+    /* background-color: red; */
+    margin: 25px;
+    padding: 25px;
+    display: inline-block;
+
+}
+
+#box1{
+    background-color: rgb(125, 5, 5,0.5);
+}
+
+#box2{
+    background-color: green;
+    /* display: none; */
+    /* visibility: hidden; */
+}
+
+#box3{
+    background-color: blue;
+}

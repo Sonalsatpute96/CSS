@@ -1,0 +1,54 @@
+div{
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    display: inline-block;
+}
+
+#box1{
+    background-color: red;
+    position: static;
+    top: 50px;      /*It will no move */
+}
+
+#box2{
+    background-color: greenyellow;
+    position: relative;
+    top: 50px;
+}
+
+#box3{
+    background-color: blue;
+    position: absolute;     /*removed from the flow*/
+}
+
+#box4{
+    background-color: blueviolet;
+    position: fixed;            /*good for header and footer*/
+    width: 100vw;
+    top: 0;
+}
+
+#box5{
+    background-color: brown;
+    position: sticky;
+    top: 0;         /*box5 will fixed at top=0*/
+}
+
+#boxA{
+    position: relative;
+    left: 50px;
+    z-index: 1;
+}
+#boxB{
+    position: relative;
+    left: 20px;
+    z-index: 0;
+}
+
+#boxC{
+    position: relative;
+    left: 0px;
+    z-index: -1;        
+    /* z index property is not applicable for the static position */
+}

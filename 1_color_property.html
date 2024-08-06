@@ -1,0 +1,174 @@
+<!-- The color property in CSS is used to set the color of the text content of an element. It can accept a variety of color values, including named colors, hexadecimal values, RGB, RGBA, HSL, and HSLA.
+RGB (Red, Green, Blue) in CSS
+The RGB color model represents colors through combinations of red, green, and blue light. Each color component can have an integer value from 0 to 255. In CSS, you can use the rgb() function to define a color in this model.
+
+Syntax
+css
+Copy code
+element {
+    color: rgb(red, green, blue);
+}
+red: The red component of the color (0-255)
+green: The green component of the color (0-255)
+blue: The blue component of the color (0-255)
+Example
+css
+Copy code
+h1 {
+    color: rgb(255, 0, 0); /* Red */
+}
+p {
+    color: rgb(0, 255, 0); /* Green */
+}
+div {
+    color: rgb(0, 0, 255); /* Blue */
+}
+RGBA (Red, Green, Blue, Alpha) in CSS
+The RGBA color model extends RGB with an alpha channel, which represents the opacity of the color. The alpha value can range from 0 (completely transparent) to 1 (completely opaque).
+
+Syntax
+css
+Copy code
+element {
+    color: rgba(red, green, blue, alpha);
+}
+red, green, blue: The color components (0-255)
+alpha: The opacity (0-1)
+Example
+css
+Copy code
+h1 {
+    color: rgba(255, 0, 0, 0.5); /* Semi-transparent red */
+}
+p {
+    color: rgba(0, 255, 0, 0.3); /* Semi-transparent green */
+}
+div {
+    color: rgba(0, 0, 255, 0.7); /* Semi-transparent blue */
+}
+Hexadecimal Colors in CSS
+Hexadecimal (hex) colors represent colors using a six-digit code preceded by a hash (#) symbol. The six digits are divided into three pairs, with each pair representing the intensity of red, green, and blue in hexadecimal format (00 to FF).
+
+Syntax
+css
+Copy code
+element {
+    color: #RRGGBB;
+}
+RR: The red component (00-FF)
+GG: The green component (00-FF)
+BB: The blue component (00-FF)
+Example
+css
+Copy code
+h1 {
+    color: #FF0000; /* Red */
+}
+p {
+    color: #00FF00; /* Green */
+}
+div {
+    color: #0000FF; /* Blue */
+}
+Shorthand Hexadecimal Colors
+Hex colors can also be written in a shorthand form if each pair of digits is the same. The shorthand form consists of three digits instead of six.
+
+Syntax
+css
+Copy code
+element {
+    color: #RGB;
+}
+R, G, B: The red, green, and blue components (0-F)
+Example
+css
+Copy code
+h1 {
+    color: #F00; /* Red */
+}
+p {
+    color: #0F0; /* Green */
+}
+div {
+    color: #00F; /* Blue */
+} -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css 1</title>
+    <link rel="stylesheet" href="1_color_property1.css">
+</head>
+<body>
+    <h1>Hello</h1>
+    <h2>Sonal</h2>
+    <h3>AAAAAAAAAAAA</h3>
+    <h4>BBBBBBBBBBBBBBB</h4>
+    <h5>CCCCCCCCCCCCC</h5>
+    <h6>DDDDDDDDDDDDDDDDDDDDD</h6>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Amet impedit totam magnam, eveniet repudiandae ex numquam delectus veritatis ipsum modi asperiores quaerat laboriosam provident sit ipsam pariatur. Aut, ut ad.</p>
+    <button>Click Me</button>
+</body>
+</html>
+
+<!-- color picker is online website to get RGB value for the perticular page -->
+ <!-- cooler is also good color pallet -->
+
+
+<!-- Cascading Style Sheets (CSS) is a cornerstone technology for web design, allowing developers to control the appearance of web pages. Here are some important topics in CSS: -->
+<!-- 
+ 1. Selectors
+ Element Selector: Targets HTML elements by their name.
+ Class Selector: Targets elements with a specific class attribute.
+ ID Selector: Targets an element with a specific ID attribute.
+ Attribute Selector: Targets elements based on their attributes.
+ Pseudo-classes and Pseudo-elements: Targets elements based on their state or position in the document tree.
+ 2. Box Model
+ Content: The actual content of the box, where text and images appear.
+ Padding: Clears an area around the content.
+ Border: A border that surrounds the padding (if any) and content.
+ Margin: Clears an area outside the border.
+ 3. Flexbox
+ Container Properties: display: flex, flex-direction, justify-content, align-items, align-content.
+ Item Properties: order, flex-grow, flex-shrink, flex-basis, align-self.
+ 4. Grid Layout
+ Container Properties: display: grid, grid-template-rows, grid-template-columns, grid-template-areas, gap.
+ Item Properties: grid-row, grid-column, grid-area.
+ 5. Responsive Design
+ Media Queries: @media rules to apply styles based on device characteristics like width, height, and orientation.
+ Fluid Layouts: Using percentages and other flexible units for width, height, and spacing.
+ Viewport Units: vw, vh, vmin, vmax.
+ 6. Positioning
+ Static: Default value; elements are positioned according to the normal flow of the document.
+ Relative: Positioned relative to its normal position.
+ Absolute: Positioned relative to the nearest positioned ancestor.
+ Fixed: Positioned relative to the viewport, meaning it always stays in the same place even if the page is scrolled.
+ Sticky: Switches between relative and fixed, depending on the scroll position.
+ 7. Typography
+ Fonts: font-family, font-size, font-weight, font-style.
+ Text Properties: color, line-height, text-align, text-transform, text-decoration.
+ 8. Backgrounds and Borders
+ Background Properties: background-color, background-image, background-position, background-repeat, background-size.
+ Border Properties: border-width, border-style, border-color, border-radius.
+ 9. Animations and Transitions
+ Transitions: transition-property, transition-duration, transition-timing-function, transition-delay.
+ Animations: @keyframes, animation-name, animation-duration, animation-timing-function, animation-delay, animation-iteration-count, animation-direction.
+ 10. CSS Variables
+ Custom Properties: Defining and using reusable values with -- prefix and var() function.
+ 11. Preprocessors
+ Sass, LESS, and Stylus: Tools that extend CSS with variables, nested rules, and functions.
+ 12. Frameworks and Libraries
+ Bootstrap, Tailwind CSS, Foundation: Pre-built CSS frameworks to streamline development.
+ Understanding and mastering these topics will give you a strong foundation in CSS, enabling you to create complex, responsive, and visually appealing web designs.
+  -->
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

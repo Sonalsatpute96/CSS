@@ -1,0 +1,55 @@
+#box1{
+    height: 100px;
+    width: 100px;
+    background-color: yellow;
+    color: black;
+    border: 2px solid black;
+    position: relative;
+    top: 100px;
+    left: 100px;
+    animation-name: colorAnimation;
+    animation-duration: 3s;
+    animation-timing-function: ease-in;
+    animation-delay: 1s;
+    animation-iteration-count: 3;
+}
+
+@keyframes colorAnimation{
+    from{background-color:yellow ;}
+    to{background-color: orange;}
+}
+
+#box2{
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+    color: black;
+    border: 2px solid black;
+    position: relative;
+    top: 200px;
+    left: 200px;
+    animation-name: moveAnimation;
+    animation-duration: 2s;
+    animation-timing-function: ease-in;
+    animation-delay: 1s;
+    animation-iteration-count: 3;
+    animation-direction:alternate-reverse;     /*alternate ,alternate-reverse,normal ,reverse are the properties*/
+    /* Animation shorthand=
+    animation: name duration timing-function delay iteration-count direction ; */
+
+}
+
+
+
+@keyframes moveAnimation{
+    from
+    {
+        left:200px;
+        background-color:blue;
+    }
+    to
+    {
+        left:500px;
+        backgound-color:red;
+    }
+}

@@ -1,0 +1,11 @@
+div {
+    height: 500px;
+    width: 500px;
+    display: inline-block;
+}
+
+#box1{
+    background-image: url("bird.jpg");
+    background-size: auto;
+    
+}
